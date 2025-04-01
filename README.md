@@ -111,7 +111,7 @@ O projeto possui uma interface moderna e intuitiva, com as seguintes telas princ
 O projeto está sendo desenvolvido apenas com o front-end por enquanto, mas planeja integrar com:
 
 - API de backend personalizada para persistência de dados
-- Integração direta com a API oficial do WhatsApp Business
+- Integração direta com a API oficial do WhatsApp Business Official e Não Official
 - Suporte a múltiplos idiomas
 - Sistema de análise e relatórios avançados
 
