@@ -1,73 +1,136 @@
-# Welcome to your Lovable project
+# VIZIOONZAPUI
 
-## Project info
+![React](https://img.shields.io/badge/React-18.x-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
+![Vite](https://img.shields.io/badge/Vite-4.x-purple)
+![Tailwind](https://img.shields.io/badge/Tailwind-3.x-38B2AC)
 
-**URL**: https://lovable.dev/projects/1c4044cf-e11f-46d2-b5bd-26ce1cd04154
+Um painel administrativo completo para gerenciamento de WhatsApp, desenvolvido com tecnologias modernas de front-end.
 
-## How can I edit this code?
+## 📷 Screenshots
 
-There are several ways of editing your application.
+Aqui estão algumas capturas de tela do VIZIOONZAPUI em ação:
 
-**Use Lovable**
+### Dashboard Principal
+![Dashboard do VIZIOONZAPUI](./screenshots/01.png)
+*Visão geral com estatísticas e status de conexões*
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1c4044cf-e11f-46d2-b5bd-26ce1cd04154) and start prompting.
+### Gerenciamento de Conexões
+![Gerenciamento de Conexões](./screenshots/02.png)
+*Interface para adicionar e gerenciar múltiplas conexões de WhatsApp*
 
-Changes made via Lovable will be committed automatically to this repo.
+### Configuração de Bots
+![Configuração de Bots](./screenshots/03.png)
+*Crie e configure bots de atendimento automático*
 
-**Use your preferred IDE**
+### Gerenciamento de Contatos
+![Gerenciamento de Contatos](./screenshots/04.png)
+*Importe e organize seus contatos com facilidade*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📋 Sobre o Projeto
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+VIZIOONZAPUI é uma interface de usuário moderna e intuitiva para gerenciar múltiplas conexões de WhatsApp, importar e gerenciar contatos e configurar bots de atendimento automático. Este projeto é inspirado em soluções como WhaTicket e Izing, mas com foco em uma experiência de usuário aprimorada e design moderno.
 
-Follow these steps:
+### 🚀 Funcionalidades
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Dashboard Completo:** Visualize estatísticas e informações importantes sobre suas conexões
+- **Gerenciamento de Conexões:** Adicione, edite e monitore múltiplas conexões de WhatsApp
+- **Importação de Contatos:** Importe contatos em massa de arquivos CSV ou Excel
+- **Gerenciamento de Contatos:** Organize seus contatos com tags e informações detalhadas
+- **Bots de Atendimento:** Configure respostas automáticas para mensagens com base em palavras-chave
+- **Interface Responsiva:** Acesse o painel de qualquer dispositivo com design adaptável
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Tecnologias Utilizadas
 
-# Step 3: Install the necessary dependencies.
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- **React:** Biblioteca JavaScript para construção de interfaces
+- **TypeScript:** Superset JavaScript que adiciona tipagem estática
+- **Vite:** Build tool moderna e rápida para desenvolvimento web
+- **Tailwind CSS:** Framework CSS utilitário para design rápido e consistente
+- **shadcn/ui:** Componentes de UI reutilizáveis e estilizáveis
+- **Lucide React:** Biblioteca de ícones leves e bonitos
+
+## 🔧 Instalação e Execução
+
+Siga os passos abaixo para configurar o ambiente de desenvolvimento:
+
+```bash
+# Passo 1: Clone o repositório
+git clone https://github.com/dvizioon/VIZIOONZAPUI.git
+
+# Passo 2: Navegue até o diretório do projeto
+cd VIZIOONZAPUI
+
+# Passo 3: Instale as dependências necessárias
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Passo 4: Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Após esses passos, o aplicativo estará rodando localmente, geralmente em [http://localhost:5173](http://localhost:5173).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📁 Estrutura do Projeto
 
-**Use GitHub Codespaces**
+O projeto está organizado da seguinte forma:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+VIZIOONZAPUI/
+│
+├── src/                    # Código fonte do projeto
+│   ├── components/         # Componentes reutilizáveis
+│   ├── pages/              # Páginas da aplicação
+│   ├── contexts/           # Contextos do React
+│   ├── hooks/              # Hooks personalizados
+│   ├── services/           # Serviços e APIs
+│   ├── styles/             # Estilos globais
+│   ├── utils/              # Funções utilitárias
+│   ├── App.tsx             # Componente principal
+│   └── main.tsx            # Ponto de entrada
+│
+├── public/                 # Arquivos públicos
+├── index.html              # HTML principal
+├── package.json            # Dependências e scripts
+├── vite.config.ts          # Configuração do Vite
+└── README.md               # Este arquivo
+```
 
-## What technologies are used for this project?
+## 🖥️ Interface
 
-This project is built with:
+O projeto possui uma interface moderna e intuitiva, com as seguintes telas principais:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Dashboard:** Visão geral com estatísticas e informações importantes
+- **Conexões:** Gerenciamento de instâncias do WhatsApp
+- **Contatos:** Importação e gerenciamento de contatos
+- **Bots:** Configuração de respostas automáticas
+- **Configurações:** Ajustes gerais do sistema
 
-## How can I deploy this project?
+## 🔄 Integrações Futuras
 
-Simply open [Lovable](https://lovable.dev/projects/1c4044cf-e11f-46d2-b5bd-26ce1cd04154) and click on Share -> Publish.
+O projeto está sendo desenvolvido apenas com o front-end por enquanto, mas planeja integrar com:
 
-## Can I connect a custom domain to my Lovable project?
+- API de backend personalizada para persistência de dados
+- Integração direta com a API oficial do WhatsApp Business
+- Suporte a múltiplos idiomas
+- Sistema de análise e relatórios avançados
 
-Yes it is!
+## 📜 Licença
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📧 Contato
+
+VIZIOON - [contato@vizioon.com.br](mailto:contato@vizioon.com.br)
+
+Link do projeto: [https://github.com/dvizioon/VIZIOONZAPUI](https://github.com/dvizioon/VIZIOONZAPUI)
