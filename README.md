@@ -131,6 +131,6 @@ Contribuições são bem-vindas! Para contribuir:
 
 ## 📧 Contato
 
-VIZIOON - [contato@vizioon.com.br](mailto:contato@vizioon.com.br)
+VIZIOON - [contato@vizioon.com.br](mailto:danielestevao.projetos@gmail.com)
 
 Link do projeto: [https://github.com/dvizioon/VIZIOONZAPUI](https://github.com/dvizioon/VIZIOONZAPUI)
